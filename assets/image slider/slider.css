@@ -1,0 +1,57 @@
+body {
+    background: black;
+  }
+  
+  h2, p {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  .content{
+    display: flex;
+    flex-basis: row wrap;
+    justify-content: center;
+    align-items: center;
+      max-width:1200px;
+      position: relative;
+      margin: auto;
+  }
+  
+  .img-slide{
+    width:100%;
+    display:none;
+  }
+  
+  .col {
+    float:left;
+    width:100%;
+  }
+  
+  .third {
+    width:33.33333%;
+  }
+  
+  .thumbnail {
+    max-height: 100px; 
+    object-fit: cover; 
+    width:100%;
+    cursor:pointer;  
+}
+
+  .section {
+    padding: 0;
+    margin-top:
+      16px!important;
+    margin-bottom:
+      16px!important;
+  }
+  
+  .opacity {
+    opacity:0.60;
+  }
+  
+  .opacity-off:hover{
+    opacity:1;
+  }
+  
+  

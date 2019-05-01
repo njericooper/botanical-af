@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="slider.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Image Slider</title>
+</head>
+<body>
+<div class="top">
+        <h2>Gardening</h2>
+        <p>How to germinate, plant, nurture, and harvest your own fruits and vegetables</p>
+    </div>
+
+<div class="content">
+  <img class="img-slide" src="https://images.pexels.com/photos/2146522/pexels-photo-2146522.jpeg">
+  <img class="img-slide" src="https://images.unsplash.com/photo-1519017971383-dc521daec9d6">
+  <img class="img-slide" src="https://images.unsplash.com/photo-1518141949770-b22df85270cf">
+
+  <div class="section">
+    <div class="col third">
+      <img class="opacity opacity-off thumbnail" src="https://images.pexels.com/photos/2146522/pexels-photo-2146522.jpeg"onclick="currentDiv(1)">
+    </div>
+    <div class="col third">
+      <img class="opacity opacity-off thumbnail" src="https://images.unsplash.com/photo-1519017971383-dc521daec9d6" onclick="currentDiv(2)">
+    </div>
+    <div class="col third">
+      <img class="opacity opacity-off thumbnail" src="https://images.unsplash.com/photo-1518141949770-b22df85270cf" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+</body>
+<script src="slider.js"></script>
+</html>
