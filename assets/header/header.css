@@ -22,7 +22,7 @@ body {
 	padding: 0;
 }
 
-h1 {
+.title-class {
 	position: relative;
 	display: block;
 	margin: 0;
@@ -34,7 +34,7 @@ h1 {
 	text-shadow: 0px 1px 1px rgba(255,255,255,1);
 }
 	
-h1::before, h1::after {
+.title-class::before, .title-class::after {
 	position: absolute;
 	content: '';
 	width: 0px;
@@ -44,12 +44,12 @@ h1::before, h1::after {
 	z-index: -1;
 }
 	
-h1::before {
+.title-class::before {
 		top: 1.4rem;
 		animation: draw 500ms linear 1s forwards;
 }
 	
-h1::after {
+.title-class::after {
 		bottom: 0.4rem;
 		animation: draw 500ms linear 1s forwards;
 }
